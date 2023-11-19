@@ -32,7 +32,6 @@ class DocentesController extends Controller
         $docentes->nombre = $request->nombre;
         $docentes->apellido = $request->apellido;
         $docentes->email = $request->email;
-        $docentes->cursosacargo = $request->cursosacargo;
         $docentes->save();
         return "Guardado correctamente";
     }
@@ -62,7 +61,6 @@ class DocentesController extends Controller
         $docentes->nombre = $request->nombre;
         $docentes->apellido = $request->apellido;
         $docentes->email = $request->email;
-        $docentes->cursosacargo = $request->cursosacargo;
         $docentes->save();
         return "Docentes actualizado correctamente";
     }

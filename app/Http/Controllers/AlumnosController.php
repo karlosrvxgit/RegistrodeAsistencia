@@ -33,7 +33,6 @@ class AlumnosController extends Controller
         $alumnos->apellido = $request->apellido;
         $alumnos->email = $request->email;
         $alumnos->dni = $request->dni;
-        $alumnos->materias = $request->materias;
         $alumnos->save();
         return "Alumno Guardado correctamente";
     }
@@ -64,7 +63,6 @@ class AlumnosController extends Controller
         $alumnos->apellido = $request->apellido;
         $alumnos->email = $request->email;
         $alumnos->dni = $request->dni;
-        $alumnos->materias = $request->materias;
         $alumnos->save();
         return "Alumno actualizado correctamente";
     }

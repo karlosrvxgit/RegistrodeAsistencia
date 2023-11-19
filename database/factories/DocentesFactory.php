@@ -20,7 +20,6 @@ class DocentesFactory extends Factory
             'nombre' => fake()->firstName(),
             'apellido' => fake()->lastName(),
             'email' => fake()->email(),
-            'cursosacargo' => fake()->name(),
         ];
     }
 }

@@ -16,8 +16,7 @@ return new class extends Migration
             $table-> string('nombre');
             $table-> string('apellido');
             $table-> string('email');
-            $table-> string('dni');
-            $table-> string('materias');
+            $table-> string('dni')->unique();
             $table->timestamps();
         });
     }

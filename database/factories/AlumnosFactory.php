@@ -21,7 +21,6 @@ class AlumnosFactory extends Factory
             'apellido' => fake()->lastName(),
             'email' => fake()->email(),
             'dni' => fake()->numerify(),
-            'materias' => fake()->name(),
         ];
     }
 }
